@@ -1,0 +1,9 @@
+﻿  소스.c
+C:\Users\user\source\repos\빠끄\빠끄\소스.c(132,10): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\user\source\repos\빠끄\빠끄\소스.c(132,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+C:\Users\user\source\repos\빠끄\빠끄\소스.c(132,10): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%c'에 필요합니다.
+C:\Users\user\source\repos\빠끄\빠끄\소스.c(132,10): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\user\source\repos\빠끄\빠끄\소스.c(144,10): warning C4476: 'printf' : 서식 지정자에 알 수 없는 형식 필드 문자 '%'이(가) 있습니다.
+C:\Users\user\source\repos\빠끄\빠끄\소스.c(144,43): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\user\source\repos\빠끄\빠끄\소스.c(144,43): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 3개가 제공되었습니다.
+  빠끄.vcxproj -> C:\Users\user\source\repos\빠끄\Debug\빠끄.exe
