@@ -1,4 +1,4 @@
 ﻿  hello world.c
-C:\Users\user\source\repos\sex\c-languages\hello world\hello world\hello world.c(97,7): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\user\source\repos\sex\c-languages\hello world\hello world\hello world.c(98,15): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\source\repos\sex\c-languages\hello world\hello world\hello world.c(121,8): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\source\repos\sex\c-languages\hello world\hello world\hello world.c(122,16): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   hello world.vcxproj -> C:\Users\user\source\repos\sex\c-languages\hello world\Debug\hello world.exe

@@ -110,8 +110,39 @@ int main()
 	
 	*/
 
-	int user, answer, win, lose, same;
+	int user, answer, win=0, lose=0, same=0, pan=0;
+	
+	while (1)
+	{
+		printf("4가지 중 선택하세요.\n(1.가위_2.바위_3.보_0.종료)\n");
+		printf("사용자 입력:");
+		scanf_s("%d", &user);
+	
+		srand(time(NULL));
+		answer = rand() % 3 + 1;
 
+
+		if (user == answer) {
+			printf("비겼습니다! 컴퓨터는 %d를 냈습니다\n", answer);
+			same++;
+			pan++;
+		}
+		else if (user == 1 && answer == 3 || user == 3 && answer == 2) {
+			printf("이겼습니다! 컴퓨터는 %d을 냈습니다\n", answer);
+			win++;
+			pan++;
+		}
+		else if (user == 2 && answer == 3 || user == 1 && answer == 2) {
+			printf("졌습니다. 컴퓨터는 %d을 냈습니다\n", answer);
+			lose++;
+			pan++;
+		}
+		else if (user == 0)
+			break;
+		
+	}
+
+	printf("게임을 종료합니다. %d판 %d승 %d패 %d무 하셨습니다.", pan, win, lose, same);
 	
 
 
