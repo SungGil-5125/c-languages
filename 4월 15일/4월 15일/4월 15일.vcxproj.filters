@@ -36,5 +36,8 @@
     <ClCompile Include="팩토리얼.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="자동차 예약 프로그램 %28반복문%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

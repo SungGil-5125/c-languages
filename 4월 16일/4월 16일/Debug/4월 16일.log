@@ -1,0 +1,3 @@
+﻿  별로 삼각형.c
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1010,5): error MSB6006: "link.exe"이(가) 종료되었습니다(코드: 1105).
+LINK : fatal error LNK1105: 'C:\Users\user\source\repos\4월 16일\Debug\4월 16일.exe' 파일을 닫을 수 없습니다.

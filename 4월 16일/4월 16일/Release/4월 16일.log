@@ -1,0 +1,7 @@
+﻿  랜덤 사각형.c
+C:\Users\user\source\repos\4월 16일\4월 16일\랜덤 사각형.c(5,42): warning C4013: 'GetForgroundWindow'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\source\repos\4월 16일\4월 16일\랜덤 사각형.c(5,44): warning C4047: '함수': 'HWND'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\user\source\repos\4월 16일\4월 16일\랜덤 사각형.c(5,42): warning C4024: 'GetWindowDC': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+별 1번.obj : error LNK2005: _main이(가) 랜덤 사각형.obj에 이미 정의되어 있습니다.
+랜덤 사각형.obj : error LNK2001: 확인할 수 없는 외부 기호 _GetForgroundWindow
+C:\Users\user\source\repos\4월 16일\Release\4월 16일.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
