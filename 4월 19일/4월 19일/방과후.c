@@ -87,7 +87,7 @@ int main() {
 	}
 	printf("%d", reverse);*/
 
-	int num, r, sum=0;
+	/*int num, r, sum=0;
 	scanf_s("%d", &num);
 	int temp = num;
 	while (num) {
@@ -98,5 +98,39 @@ int main() {
 	if (sum == temp)
 		printf("%d", sum);
 	else
-		printf("¾Æ´Ï´Ù");
+		printf("¾Æ´Ï´Ù");*/
+
+	/*int sum = 0, num, cnt = -1;
+	float avg = 0;
+
+	while (1) {
+
+		printf("input number >> ");
+		scanf_s("%d", &num);
+		cnt++;
+		sum = sum + num;
+
+		if (num == 0)
+			break;
+	}
+	printf("cnt=%d\n", cnt);
+	printf("sum=%d\n", sum);
+	printf("avg=%d\n", sum/cnt);*/
+
+	/*int num, sum = 0, cnt = 0;
+
+	while (1) {
+		printf("input number >>");
+		scanf_s("%d", &num);
+
+		if (num % 2 == 1) {
+			sum += num;
+			cnt++;
+		}
+		else if (num == 0)
+			break;
+	}
+	printf("È¦¼ö ÇÕ : %d\n", sum);
+	printf("È¦¼ö Æò±Õ : %d\n", sum / cnt);*/
+
 }
