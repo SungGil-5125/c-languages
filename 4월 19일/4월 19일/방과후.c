@@ -133,4 +133,4 @@ int main() {
 	printf("È¦¼ö ÇÕ : %d\n", sum);
 	printf("È¦¼ö Æò±Õ : %d\n", sum / cnt);*/
 
-}
+}lfjfkldfglkjgfdlsjldfljfgljfdgjldf
